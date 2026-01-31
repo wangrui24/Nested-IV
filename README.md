@@ -25,4 +25,5 @@ All experiments are implemented in R and designed to be run on a computing clust
 |`simu_test_sum_mis`| generate tables and graphs using the simulation output from `cluster_test1_model_misspecification.R` |(run locally)|
 
 
-
+## Additional notes
+For replicating the simulation results, please replace the input and output paths in each R script with your own input and output paths.
