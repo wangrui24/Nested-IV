@@ -27,3 +27,6 @@ All experiments are implemented in R and designed to be run on a computing clust
 
 ## Additional notes
 For replicating the simulation results, please replace the input and output paths in each R script with your own input and output paths.
+
+## A simple illustraing example
+The file Simple_example provides a simple synthetic data example illustrating the super-learner–based nonparametric estimator, the projection test, and the nonparametric test. The dataset is generated with a sample size of 1,000. This R script can be run locally and completes within a short amount of time.
