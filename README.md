@@ -9,8 +9,8 @@ All experiments are implemented in R and designed to be run on a computing clust
 
 | R Script                          | Description                                      | Cluster Script                     |
 |----------------------------------|--------------------------------------------------|------------------------------------|
-| `cluster1.R`                     | Simulating results for estimation part with continuous outcome        | `run1.sh`                          |
-| `cluster2.R`                     | Simulating results for estimation part with binary outcome               | `run2.sh`                          |
+| `cluster1.R`                     | Simulate results for estimation part with continuous outcome        | `run1.sh`                          |
+| `cluster2.R`                     | Simulate results for estimation part with binary outcome               | `run2.sh`                          |
 | `cluster_test1.R`                | Projection test with linear alternative hypothesis     | `run_test1.sh`                     |
 | `cluster_test_nonlinear.R`       | Projection test with nonlinear alternative hypothesis          | `run_test_nonlinear.sh`            |
 | `cluster_KS_test.R`              | Nonparametric test with linear alternative hypothesis            | `run_test_KS.sh`                   |
