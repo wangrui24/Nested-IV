@@ -184,6 +184,7 @@ dat_gen <- function(n=1000,  alpha = c(0.5,0.2,0.05), beta = c(1,1,1)){
   return(dat)
 }
 
+# Take the simulated dataset as input, output: one-step estimator, estimating equation-based estimator, and the variance estimator
 
 npest<- function(dataset,V=2)
 {

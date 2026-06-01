@@ -28,5 +28,13 @@ All experiments are implemented in R and designed to be run on a computing clust
 ## Additional notes
 For replicating the simulation results, please replace the input and output paths in each R script with your own input and output paths.
 
+The `npest` function in `cluster1.R` and `cluster2.R` is used for producing the point estimates and variance estimates, taking the simulated dataset as input.
+
+The `nptest` function in `cluster_test1.R` is used for producing the projection-based test results (estimating the best liner projections). Then use `test_summary` to produce the test results.
+
+The `kstest` function in `cluster_KS_test.R` is used for producing the nonparametric test results (including the L2 norm based test and L infinity norm based test).
+
+
+
 ## A simple illustraing example
 The file Simple_example provides a simple synthetic data example illustrating the super-learner–based nonparametric estimator, the projection test, and the nonparametric test. The dataset is generated with a sample size of 1,000. This R script can be run locally and completes within a short amount of time.

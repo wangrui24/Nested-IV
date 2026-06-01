@@ -183,6 +183,9 @@ library(MASS)
 logit <- function(x){log(x/(1-x))}
 expit <- function(x){exp(x)/(1+exp(x))}
 
+# Take the simulated dataset as input, output: one-step estimator, estimating equation-based estimator, and the variance estimator
+
+
 npest<- function(dataset,V=2)
 {
   ####
